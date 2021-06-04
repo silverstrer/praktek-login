@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:linear-gradient(to right, rgb(52, 52, 107), rgb(115, 115, 207));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(coba.jpeg);
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    min-width: 280px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box h1{
+    padding: 30px 20px;
+    font-size: 24px;
+    color: rgb(52, 52, 107);
+    text-align: center;
+}
+
+input[type=text]{
+    display: block;
+    padding: 4px;
+    margin: 2px auto;
+    border-radius: 4px;
+    border: grey 1px solid;
+}
+
+input[type=password]{
+    display: block;
+    padding: 4px;
+    margin: 2px auto;
+    border-radius: 4px;
+    border: grey 1px solid;
+}
+
+input[type=submit]{
+    display: block;
+    margin: 0px auto;
+    border-radius: 6px;
+    background-color:  rgb(52, 52, 107);
+    color: #fff;
+    padding: 12px 50px;
+    font-weight: bolder;
+    border: 2px solid;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color:rgb(52, 52, 107);
+    border: rgb(52, 52, 107) 2px solid;
+}
